@@ -17,9 +17,9 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         configCollectionView()
         
-        let slide1 = Slides(id: 1, text: "text1", img: #imageLiteral(resourceName: "slide1"))
-        let slide2 = Slides(id: 2, text: "text2", img: #imageLiteral(resourceName: "slide2"))
-        let slide3 = Slides(id: 3, text: "text3", img: #imageLiteral(resourceName: "slide3"))
+        let slide1 = Slides(id: 1, text: "He was disappointed to discover that his brothers were peddlers, not millionaires in New York. But with no skill or trade, and only a few words of English, he was forced to become a peddler as well.", img: #imageLiteral(resourceName: "slide1"))
+        let slide2 = Slides(id: 2, text: "He was disappointed to discover that his brothers were peddlers, not millionaires in New York. But with no skill or trade, and only a few words of English, he was forced to become a peddler as well.", img: #imageLiteral(resourceName: "slide2"))
+        let slide3 = Slides(id: 3, text: "He was disappointed to discover that his brothers were peddlers, not millionaires in New York. But with no skill or trade, and only a few words of English, he was forced to become a peddler as well.", img: #imageLiteral(resourceName: "slide3"))
         
         slides.append(slide1)
         slides.append(slide2)
