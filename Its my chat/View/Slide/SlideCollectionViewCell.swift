@@ -14,12 +14,10 @@ class SlideCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var regBtn: UIButton!
     @IBOutlet weak var authBtn: UIButton!
     
-    
     static let reuseId = "SlideCollectionViewCell"
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        
     }
     
     func config(slide:Slides) {
