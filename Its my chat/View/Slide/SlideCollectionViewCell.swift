@@ -13,6 +13,7 @@ class SlideCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var slideImg: UIImageView!
     @IBOutlet weak var regBtn: UIButton!
     @IBOutlet weak var authBtn: UIButton!
+    var delegate: LoginViewControllerDelegate!
     
     static let reuseId = "SlideCollectionViewCell"
 
@@ -31,11 +32,11 @@ class SlideCollectionViewCell: UICollectionViewCell {
     }
     
     @IBAction func redBtnClick(_ sender: Any) {
-        
+        delegate.openRegVC()
     }
     
     @IBAction func authBtnClick(_ sender: Any) {
-        
+        delegate.openAuthVC()
     }
     
 }

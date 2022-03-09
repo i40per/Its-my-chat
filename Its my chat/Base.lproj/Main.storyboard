@@ -162,6 +162,9 @@
                                         <buttonConfiguration key="configuration" style="plain">
                                             <imageReference key="image" image="xmark" catalog="system" symbolScale="large"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="closeVC:" destination="W3t-Ie-mI3" eventType="touchUpInside" id="EMi-Oh-6kb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.094117647058823528" green="0.094117647058823528" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -186,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NaJ-xn-ZAS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2030.4347826086957" y="259.82142857142856"/>
+            <point key="canvasLocation" x="-1094" y="260"/>
         </scene>
         <!--App View Controller-->
         <scene sceneID="afr-Tn-Bcq">
@@ -256,10 +259,10 @@
             </objects>
             <point key="canvasLocation" x="-1957" y="1730"/>
         </scene>
-        <!--View Controller-->
+        <!--Auth View Controller-->
         <scene sceneID="dip-2f-i0v">
             <objects>
-                <viewController id="jEa-TB-DAT" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AuthViewController" id="jEa-TB-DAT" customClass="AuthViewController" customModule="Its_my_chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CA4-0h-zMS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -377,6 +380,9 @@
                                         <buttonConfiguration key="configuration" style="plain">
                                             <imageReference key="image" image="xmark" catalog="system" symbolScale="large"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="closeVC:" destination="jEa-TB-DAT" eventType="touchUpInside" id="lKs-wA-qIr"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -401,7 +407,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Phg-QH-59v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1235" y="260"/>
+            <point key="canvasLocation" x="-1958" y="260"/>
         </scene>
     </scenes>
     <resources>
